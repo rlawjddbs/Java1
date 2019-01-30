@@ -1,0 +1,16 @@
+/*
+	단항연산자 (Unary)
+	~, !, +, -, ++, --
+*/
+class Operator1{ //main 메소드가 들어있는 클래스를 'java application' 이라 한다.)
+	public static void main(String[] args) {
+		//~(tilde) : 1의 보수연산
+		int i = 11;
+		int j = -11;
+		
+		System.out.println("~"+i+" = "+ ~i); //-12
+
+
+
+	}//main
+}//class
